@@ -2,7 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   height: 7rem;
   background-color: #17181b;
@@ -31,23 +31,6 @@ footer .footer-content .social-list ul {
   justify-content: space-around;
 }
 
-@-webkit-keyframes animate {
-  0% {
-    background-position: 0px;
-  }
-  100% {
-    background-position: 600px;
-  }
-}
-
-@keyframes animate {
-  0% {
-    background-position: 0px;
-  }
-  100% {
-    background-position: 600px;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   flex-direction: column;
 }
 body h2 {
@@ -135,4 +118,11 @@ body h2 {
 .reset:active {
   background-color: #d63c3c;
   transform: scale(0.95);
+}
+
+@media (max-width: 480px) {
+  .box {
+    max-width: 400px;
+    max-height: 140px;
+  }
 }/*# sourceMappingURL=style.css.map */
