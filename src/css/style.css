@@ -75,7 +75,6 @@ body h2 {
   position: relative;
   width: 600px;
   height: 200px;
-  background-color: #000;
   border-bottom: 2px solid #555;
   flex-direction: column;
 }
@@ -111,17 +110,26 @@ body h2 {
   -webkit-animation: animate 0.5s steps(3) infinite;
           animation: animate 0.5s steps(3) infinite;
 }
+.box label:nth-child(1) i:hover {
+  cursor: pointer;
+}
 .box label:nth-child(2) i {
   background: url(../images/02.jpg);
   background-size: contain;
   -webkit-animation: animate 0.4s steps(3) infinite;
           animation: animate 0.4s steps(3) infinite;
 }
+.box label:nth-child(2) i:hover {
+  cursor: pointer;
+}
 .box label:nth-child(3) i {
   background: url(../images/03.jpg);
   background-size: contain;
   -webkit-animation: animate 0.4s steps(3) infinite;
           animation: animate 0.4s steps(3) infinite;
+}
+.box label:nth-child(3) i:hover {
+  cursor: pointer;
 }
 
 .reset {

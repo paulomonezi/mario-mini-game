@@ -58,16 +58,25 @@ body {
     background: url(../images/01.jpg);
     background-size: contain;
     animation: animate 0.5s steps(3) infinite;
+    &:hover{
+      cursor: pointer;
+    }
   }
   label:nth-child(2) i {
     background: url(../images/02.jpg);
     background-size: contain;
     animation: animate 0.4s steps(3) infinite;
+    &:hover{
+      cursor: pointer;
+    }
   }
   label:nth-child(3) i {
     background: url(../images/03.jpg);
     background-size: contain;
     animation: animate 0.4s steps(3) infinite;
+    &:hover{
+      cursor: pointer;
+    }
   }
 }
 

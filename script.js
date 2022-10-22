@@ -29,4 +29,3 @@ resetGame.onclick = function () {
     check3.disabled = false;
     check3.checked = false;
 }
-
